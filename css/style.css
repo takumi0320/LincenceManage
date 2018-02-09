@@ -1,0 +1,323 @@
+@charset "UTF-8";
+/* パーツCSS */
+.container {
+    width: 80%!important;
+}
+.btn {
+    font-size: 16px;
+    padding: 5px 18px;
+}
+
+/* ヘッダーCSS */
+header .logout-icon {
+    padding-right: 5px;
+}
+
+/* ログイン画面CSS */
+.login .login-group {
+    float: none;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    border: solid 1px #b6b6b6;
+    border-radius: 3px;
+}
+
+.login .login-btn {
+    margin-top: 40px;
+}
+
+.login .is-blank-error {
+    display: none;
+}
+
+/* メイン画面CSS */
+.main .row {
+    margin: 10px -15px;
+}
+.btn.main-btn,
+.btn.main-btn-br {
+    border-radius: 15px;
+}
+.col-menu {
+    padding: 10px 5px;
+}
+.col-menu .main-btn {
+    font-size: 30px;
+    width: 100%;
+    padding: 60px 10px!important;
+    height: 160px;
+    max-width: 320px;
+}
+.col-menu .main-btn-br {
+    font-size: 30px;
+    width: 100%;
+    padding: 40px 10px!important;
+    height: 160px;
+    max-width: 320px;
+}
+
+/* ライセンス登録画面CSS*/
+
+#customerPassword {
+  background-color:#BDBDBD;
+}
+
+button .btn .btn-default {
+  margin-top:100px;
+}
+
+#licenceDateLowerLimit{
+  border-radius: 5px;
+}
+
+#licenceDateUpperLimit{
+  border-radius: 5px;
+}
+
+#optionDateLowerLimit{
+  border-radius: 5px;
+}
+
+#optionDateUpperLimit{
+  border-radius: 5px;
+}
+
+#optionDateLowerLimitClone{
+  border-radius: 5px;
+}
+
+#optionDateUpperLimitClone{
+  border-radius: 5px;
+}
+
+.input-group div{
+  flex-wrap: wrap;
+  padding-right:10px;
+}
+
+.glyphicon-plus-sign{
+  padding-top:15px;
+}
+
+div .row{
+  padding-bottom: 15px;
+}
+
+.dropdown:before {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+.dropdown-select{
+  opacity:0;
+  filter: alpha(opacity=0);
+  -ms-filter: "alpha(opacity=0)";
+  -moz-opacity:0;
+  -khtml-opacity: 0;
+}
+
+.register .form-period {
+    width: 45%;
+    float: left;
+}
+
+.register .tilde {
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.register .period-group:after{
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.register .modal-password {
+  line-height: 40px;
+}
+
+.register .option-plus {
+  cursor: pointer;
+  font-size: 40px;
+  color: #00FF00;
+}
+
+.register .is-blank-error {
+    padding: 5px 10px;
+    margin-top: 3px;
+    margin-bottom: 0;
+    display: none;
+}
+
+/* モーダルウィンドウCSS */
+.modal-body{
+    font-size: 16px;
+    padding: 50px;
+}
+.modal-body p{
+    margin-bottom: 50px;
+}
+.modal-body .btn {
+    margin: 0 10px;
+}
+
+/*ライセンス一括登録画面CSS*/
+.inputFile-group{
+    margin: 60px auto;
+}
+.inputFile-group #file{
+    display: none;
+}
+.inputFile-group #fileName{
+    width:50%;
+    border: none;
+}
+
+/* システム一覧画面CSS */
+.product-register-btn{
+    margin-bottom:60px;
+}
+.product-list-value{
+    font-size: 18px;
+}
+.product-list-number.col-xs-1,
+.product-list-title.col-xs-11{
+    vertical-align: middle;
+}
+/*システム登録画面CSS*/
+.form-control#inputProductName,
+.form-control#inputProductPhonetic{
+    width:100%;
+}
+.product-form{
+    margin-top:90px;
+}
+.productName,
+.productPhonetic{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.btn-block{
+    padding-top: 230px;
+    clear: both;
+}
+
+.alert.alert-danger#delete-error{
+    margin-top: 20px;
+}
+/*システム登録完了画面CSS*/
+.complete-text.text-center{
+    font-size: 20px;
+    margin-top: 120px;
+}
+.go-home-btn.text-center{
+    margin-top: 120px;
+}
+/*オプション登録画面CSS*/
+.form-control#inputOptionName,
+.form-control#inputOptionPhonetic{
+    width:100%;
+}
+
+
+/*ライセンス一括登録完了画面CSS*/
+.completeLicence{
+    margin: 50px auto;
+}
+.completeLicence .btn{
+    margin: 30px auto;
+}
+.completeLicenceTable{
+    margin-bottom: 40px;
+}
+
+/* ライセンス一覧画面CSS */
+.licence-list-title {
+    margin: 40px 0;
+}
+.licence-list-column,
+.licence-list-value {
+    font-size: 18px;
+}
+.list table tbody tr td {
+    vertical-align: middle;
+}
+.licence-table-title a span.glyphicon {
+    color: #000000;
+}
+.licence-table-title a span.glyphicon.selected {
+    color: #5bc0de;
+}
+
+/*ユーザー一覧画面CSS*/
+.read-btn{
+    margin: 30px auto;
+}
+.customerTable td a{
+    color:black;
+}
+
+/*アクセスログエクスポート画面CSS*/
+.accessLog-btn{
+    margin-bottom: 30px;
+}
+
+/* 確認・詳細表示CSS */
+.detail table.table-bordered {
+    border: none;
+}
+.detail table.table-bordered tbody tr td {
+    border: none;
+}
+.detail table.table tbody tr td {
+    border: none;
+}
+.detail .detail-title {
+    padding-top: 40px;
+}
+.detail table.table tbody tr td.detail-content {
+    border-bottom: solid 1px #777;
+}
+.detail .foot-buttons {
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+.detail form {
+    display: inline;
+}
+.detail .licence-edit-button {
+    margin-right: 50px;
+}
+
+
+@media (max-width: 1024px) {
+    .col-menu .main-btn {
+        font-size: 23px;
+        max-width: 80%;
+        padding: 45px 10px!important;
+        height: 130px;
+    }
+    .col-menu .main-btn-br {
+        font-size: 23px;
+        max-width: 80%;
+        padding: 33px 10px!important;
+        height: 130px;
+    }
+}
+
+@media (max-width: 999px) {
+    .col-menu .main-btn {
+        font-size: 20px;
+    }
+    .col-menu .main-btn-br {
+        font-size: 20px;
+    }
+}
